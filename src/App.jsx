@@ -7,6 +7,7 @@ import gsap from "gsap";
 import Performance from "./components/Performance.jsx";
 import Features from "./components/Features.jsx";
 import Footer from "./components/Footer.jsx";
+import Showcase from "./components/Showcase.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -16,6 +17,7 @@ const App = () => {
             <NavBar />
             <Hero />
             <ProductViewer />
+            <Showcase/>
             <Performance />
             <Features />
             <Footer />
